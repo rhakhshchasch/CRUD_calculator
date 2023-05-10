@@ -11,4 +11,3 @@ if(isset($_POST["submit"])){
     $calculation = new Calculator($num1, $num2, $operator);
     echo $calculation->getResult();
 }
-
